@@ -1,3 +1,6 @@
+from inspect import signature
+
+
 def clip(text, max_length=80):
     """
     :param text:
@@ -17,8 +20,13 @@ def clip(text, max_length=80):
         end = len(text)
     return text[:end].rstrip()
 
+
 if __name__ == '__main__':
     print(clip.__defaults__)
     print(clip.__code__)
     print(clip.__code__.co_varnames)
     print(clip.__code__.co_argcount)
+    sig = signature(clip)
+    print(str(sig))
+    for name, param in sig.parameters.items():
+        print(param.kind, ':', name, '=', param.default)
