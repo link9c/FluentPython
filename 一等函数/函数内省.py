@@ -1,7 +1,7 @@
 from inspect import signature
 
 
-def clip(text, max_length=80):
+def clip(text: str, max_length: 'int>0' = 80) -> str:
     """
     :param text:
     :param max_length:
@@ -26,6 +26,7 @@ if __name__ == '__main__':
     print(clip.__code__)
     print(clip.__code__.co_varnames)
     print(clip.__code__.co_argcount)
+    print(clip.__annotations__)
     sig = signature(clip)
     print(str(sig))
     for name, param in sig.parameters.items():
