@@ -1,0 +1,6 @@
+u16 = 'E1 Nino'.encode('utf_16')
+print(u16)
+print(list(u16))
+u16le = 'E1 Nino'.encode('utf_16le')
+print(u16le)
+print(list(u16le))
