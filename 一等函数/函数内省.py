@@ -16,3 +16,9 @@ def clip(text, max_length=80):
     if end is None:
         end = len(text)
     return text[:end].rstrip()
+
+if __name__ == '__main__':
+    print(clip.__defaults__)
+    print(clip.__code__)
+    print(clip.__code__.co_varnames)
+    print(clip.__code__.co_argcount)
