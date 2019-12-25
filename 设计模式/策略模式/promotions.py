@@ -74,7 +74,6 @@ class LargeOrderPromo(Promotion):
         return 0
 
 
-promos = [func for name,func in inspect.getmembers(promotions,inspect.isfunction)]
 
 # 获取所有函数名
 

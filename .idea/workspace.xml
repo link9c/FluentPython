@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab3df4eb-b77e-4c45-af3b-854647e9f446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/一等函数/operator模块.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/一等函数/partial冻结参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/promotions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/promotions_func.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/设计模式/策略模式/get_members.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/averager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/clock_decrotor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/functools/lru_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/闭包和装饰器/functools/分派装饰器.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式/策略模式/promotions.py" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/策略模式/promotions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计模式/策略模式/promotions_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/设计模式/策略模式/promotions_func.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +30,16 @@
   <component name="ProjectId" id="1VBrsJr0MXJfv2aDLZ9XtWqCr5I" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Project/temp" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitProject\FluentPython\闭包和装饰器\functools" />
       <recent name="D:\GitProject\FluentPython\设计模式" />
       <recent name="D:\Project\FluentPython\文本和字节序列\查看gif信息" />
       <recent name="D:\Project\FluentPython\字典和集合" />
       <recent name="D:\Project\FluentPython" />
-      <recent name="D:\Project\FluentPython\字典" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -52,49 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.promotions">
-    <configuration name="策略为函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FluentPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/设计模式/策略模式" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\GitProject\FluentPython\设计模式\策略模式\promotions_func.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="策略为类" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="FluentPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/设计模式/策略模式" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\GitProject\FluentPython\设计模式\策略模式\promotions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.lru_cache (1)">
     <configuration name="高阶函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,7 +76,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="best_promo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="clock_decrotor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FluentPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包和装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包和装饰器/clock_decrotor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_members" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/设计模式/策略模式/best_promo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/设计模式/策略模式/get_members.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="partial冻结参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lru_cache (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/一等函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包和装饰器/functools" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/一等函数/partial冻结参数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/闭包和装饰器/functools/lru_cache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +139,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="promotions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="lru_cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="FluentPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/闭包和装饰器" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\GitProject\FluentPython\闭包和装饰器\functools\lru_cache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="promotions_func" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="FluentPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +172,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/设计模式/策略模式/promotions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/设计模式/策略模式/promotions_func.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.promotions" />
-        <item itemvalue="Python.best_promo" />
-        <item itemvalue="Python.策略为函数" />
-        <item itemvalue="Python.策略为类" />
-        <item itemvalue="Python.partial冻结参数" />
+        <item itemvalue="Python.lru_cache (1)" />
+        <item itemvalue="Python.lru_cache" />
+        <item itemvalue="Python.clock_decrotor" />
+        <item itemvalue="Python.get_members" />
+        <item itemvalue="Python.promotions_func" />
       </list>
     </recent_temporary>
   </component>
